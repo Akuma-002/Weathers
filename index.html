@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>Weathering with you</nav>
+    <div class="main">
+        <span>
+            <p class="idea">
+                Get Ready for the Weather
+            </p>
+        </span>
+        <div>
+            <h1 class="heading">
+                Weather
+            </h1>
+        </div>
+        <p>
+            This is a test project for practice API    
+        </p>
+        <form id="fo">
+            <label for="location">
+                Location
+                <br>
+                <input type="text" id="location" placeholder="Enter your location">
+            </label>
+            <button id="btn" type="submit">Submit</button>
+        </form> 
+        <div class="output">
+            <p id="name"></p>
+            <p id="state"></p>
+            <p id="country"></p>
+            <p id="temp"></p>
+            <p id="realfeel"></p>
+        </div>
+        
+    </div>
+    <footer>
+        © 2024 by SAHIL. 
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
